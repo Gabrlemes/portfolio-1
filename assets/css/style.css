@@ -85,23 +85,6 @@ a {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); 
 }
 
-#whatsappButton {
-    bottom: 20px;
-    right: 20px;
-    background-color: #25D366;
-    box-shadow: 0px 0px 10px rgba(0, 255, 0, 0.5); 
-    animation: pulse 2s infinite;
-}
-
-#whatsappButton i {
-    font-size: 24px;
-    color: #fff;
-}
-
-.fixed-button i {
-    font-size: 24px;
-}
-
 @keyframes pulse {
     0% {
         transform: scale(1);
@@ -370,16 +353,6 @@ a {
     width: 200px;
 }
 
-.complemento-inicio .qr-code {
-    width: 80px;
-    opacity: .2;
-    transition: all .5s ease-in-out;
-}
-
-.qr-code:hover {
-    opacity: 1;
-}
-
 /*** SOBRE *****/
 .sobre {
     background-color: var(--color-black);
@@ -542,7 +515,7 @@ a {
     width: 90%;
     z-index: 1000;
     animation: rotate 20s linear infinite;
-} */
+}
 
 @keyframes rotate {
     from {
@@ -645,7 +618,7 @@ a {
     }
 }
 
-/*************** SERVIÇOS *****/
+/*** SERVIÇOS *****/
 .servicos {
     background-color: var(--color-white);
     width: 100vw;
@@ -734,8 +707,8 @@ a {
 }
 
 .card-titulo {
-    width: 68%;
-    font-size: clamp(0.8rem, 2.5vw + .4rem, 2rem);
+    width: 80%;
+    font-size: clamp(0.8rem, 2.5vw + .2rem, 1.7rem);
     font-family: var(--font-pequena);
     font-weight: normal;
 }
@@ -758,7 +731,7 @@ a {
     margin-bottom: -7px;
 }
 
-/*************** ALGUMA FRASE AQUI  *****/
+/*** ALGUMA FRASE AQUI  *****/
 .free-your-mind {
     background-color: var(--color-white);
     width: 100vw;
@@ -794,7 +767,7 @@ a {
 
 .container-free-your-mind span {
     color: var(--color-black);
-    font-size: 15vw;
+    font-size: 11vw;
 }
 
 .center span {
@@ -812,7 +785,7 @@ a {
     margin: 0 4rem;
 }
 
-/*************** PORTFOLIO *****/
+/**** PORTFOLIO *****/
 .portfolio {
     width: 100%;
     height: 100%;
@@ -979,7 +952,7 @@ a {
     letter-spacing: 1.2px;
 }
 
-/*************** CONTATO *****/
+/**** CONTATO *****/
 .contato {
     width: 100vw;
     height: auto;
@@ -1122,7 +1095,7 @@ a {
     border-radius: 36px;
 }
 
-/*************** FOOTER *****/
+/***** FOOTER *****/
 .footer {
     background-color: var(--color-black);
     width: 100%;
@@ -1162,24 +1135,6 @@ a {
 
 .menu-column {
     text-align: center;
-}
-
-.footer-nav {
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    gap: 0.5rem;
-}
-
-.footer-nav a {
-    text-decoration: none;
-    color: var(--color-white);
-    font-size: 1.2rem;
-    transition: color 0.3s ease;
-}
-
-.footer-nav a:hover {
-    color: var(--color-destaque1);
 }
 
 .social-column {
